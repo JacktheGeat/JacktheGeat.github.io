@@ -1,6 +1,8 @@
 body {
-  width: 95vw;
+  width: 96vw;
+  height: 100vh;
   background: linear-gradient(#120026, #1a1a1a);
+  background-attachment: fixed;
   float: left;
   font-size: 16px;
   color: antiquewhite;
