@@ -11,7 +11,7 @@
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   .dropdown {
     float: left;
     overflow: hidden;
@@ -29,7 +29,7 @@
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #0066ff;
+    background-color: #00acd6;
   }
   
   .dropdown-content {
