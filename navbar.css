@@ -29,7 +29,15 @@
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #00acd6;
+    animation: navbarHover 0.2s linear 0s 1 normal forwards;
+  }
+  @keyframes navbarHover {
+    0% {
+      background-color: #211e2a;
+    }
+    100% {
+      background-color: #00acd6;
+    }
   }
   
   .dropdown-content {
@@ -51,7 +59,12 @@
   }
   
   .dropdown-content a:hover {
-    background-color: #ddd;
+    animation: dropdow-hover 0s linear 0s 1 normal forwards;
+  }
+  @keyframes dropdow-hover {
+    100% {
+      background-color: #ddd;
+    }
   }
   
   .dropdown:hover .dropdown-content {

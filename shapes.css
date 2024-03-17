@@ -1,0 +1,30 @@
+.square{
+    height: 50px;
+    width: 50px;
+    animation: myan 4s infinite;
+}
+@keyframes myan {
+    0%, 100% {
+        background: blue;
+      }
+      50% {
+        background: green;
+      }
+}
+
+.test {
+    width: 100px;
+    height: 100px;
+    right: -25px;
+    border-radius: 50%;
+    outline: blue solid 2px;
+    backdrop-filter: blur(8px);
+    position: relative;
+    animation: mymove 5s ease-in-out infinite;
+  }
+  
+  @keyframes mymove {
+    from {top: 0px;}
+    50% {top: 150px;}
+    to {top: 0px;}
+  }
