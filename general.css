@@ -1,5 +1,5 @@
 body {
-  width: 96vw;
+  width: 100vw;
   height: 100vh;
   background: linear-gradient(#120026, #1a1a1a);
   background-attachment: fixed;
@@ -7,7 +7,7 @@ body {
   font-size: 16px;
   color: antiquewhite;
   text-align: center;
-  padding: 14px 16px;
+  margin:0;
   text-decoration: none;
 }
 #header {
