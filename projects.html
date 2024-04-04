@@ -23,8 +23,30 @@
     <div class="header">
         <h1>My github projects!</h1>
     </div>
-    <div class="test"></div>
-    <div class="square"></div>
+
+
+    <h1>localStorage Test</h1>
+
+    <form>
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <button onclick="saveName()" type="button">Save Name</button>
+    </form>
+    <script>
+        function getName() {
+            document.getElementById("output").append(localStorage.getItem(localStorage.length-1)).appendChild(document.createElement('br'));
+            document.getElementById("output").appendChild(document.createElement('br'));
+        }
+        getName();
+
+        function saveName() {
+            var name = document.getElementById("name");
+            localStorage.setItem(localStorage.length, name.value);
+            getName();
+        }
+      </script>
+
+<p id="output"> </p>
 </body>
 
 </html>
