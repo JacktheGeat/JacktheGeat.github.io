@@ -34,15 +34,24 @@
     <script>
         function glublug() {
             
-            let img = document.createElement('img');
-            img.src = 'images/GLUBLUG.png';
-            img.width=400;
             document.getElementById('jumpscare').innerHTML = "GLUBLUG JUMPSCARE!!!";
             document.getElementById('jumpscare2').innerHTML = "My DnD character, Glublug, in all his dumb, fishy monk glory.";
             document.getElementById('jumpscare3').innerHTML = "*insert a thing that plays Jojo's Bizzare Adventure music*";
 
-
+            let img = document.createElement('img');
+            img.src = 'images/GLUBLUG.png';
+            img.width=400;
             document.getElementById('jumpscare4').appendChild(img);
+
+            let img2 = document.createElement('img');
+            img2.src = 'images/Paladin.jpg';
+            img2.width=400;
+            document.getElementById('jumpscare4').appendChild(img2);
+
+            let img3 = document.createElement('img');
+            img3.src = 'images/just_a_lil_girl.jpg';
+            img3.width=400;
+            document.getElementById('jumpscare4').appendChild(img3);
 
             var x = document.getElementById("buttn");
             x.style.display = "none";
