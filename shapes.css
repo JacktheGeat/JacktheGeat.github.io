@@ -28,3 +28,34 @@
     50% {top: 150px;}
     to {top: 0px;}
   }
+
+  .bubble-cage{
+    overflow: hidden;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    bottom: 0px;
+  }
+  #bubble {
+    width: 500px;
+    height: 500px;
+    bottom: -0vh;
+    border-radius: 50%;
+    background-color: cyan;
+    filter: blur(16px);
+    position: absolute;
+    animation: bubblemove 10s linear infinite;
+  }
+  @keyframes bubblemove {
+    from {
+      bottom: 0vh;
+      opacity: 0%;
+    }
+    20% {
+      opacity: 5%;
+    }
+    to {
+      bottom: 50vh;
+      opacity: 0%;
+    }
+  }
